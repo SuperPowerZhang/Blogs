@@ -10,8 +10,9 @@
 2. ~/.bashrc设置glog命令失败，老师还没有出面解决
 
 ##我现在的心情
-![计划上午快乐学完结果两点还没吃午饭](https://www.google.com/imgres?imgurl=https%3A%2F%2Ftp1.tupiankucdn.com%2Fgif%2Fs%2F20181003%2Fe1822c59cb87f512b375d7a00684aa98.jpg&imgrefurl=https%3A%2F%2Fwww.gifhome.com%2Fspecial%2F1065.html&tbnid=nq50LczUv2CYNM&vet=12ahUKEwi8j6yR9OLrAhWCBaYKHVdoCTcQMygGegUIARCzAQ..i&docid=VJ2YuX9xZizUeM&w=690&h=690&q=%E5%BF%83%E7%B4%AF%E7%9A%84%E8%A1%A8%E6%83%85&ved=2ahUKEwi8j6yR9OLrAhWCBaYKHVdoCTcQMygGegUIARCzAQ)
+![计划上午快乐学完结果两点还没吃午饭](http://img.8ryx.com/uploads/zedit/2018-06/14/20180614175223_25207.jpg)
 * 当前状态：
+
 `let moodnow='just ok!'`
 * 接下来：
 ```javascript
