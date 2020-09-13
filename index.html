@@ -28,7 +28,7 @@
 
     section {
         width: 100%;
-        height: 170px;
+        height: 250px;
     }
 
     img {
@@ -54,6 +54,7 @@
     <hr>
     <section>
         <h4>a标签的用法 </h4>
+        <p>用于插入超链接，有href、target属性需要设置</p>
         <ul>
             <li>
                 <a href="//www.baidu.com" target='_blank'>外部链接跳转</a>
@@ -75,6 +76,7 @@
     <hr>
     <section class='picture'>
         <h4>img标签的用法</h4>
+        <p>用于在页面中插入图片，需要设置src（来源）、alt（图片失败时的显示）属性，有onload和onerror两个事件</p>
         <ul>
             <li>
                 <img src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3927956688,3513159679&fm=26&gp=0.jpg"
@@ -92,6 +94,7 @@
     <hr>
     <section>
         <h4>table标签的用法</h4>
+        <p>用于展示表格，有thead、tbody、tfoot、tr、th、td标签，主要设置table-layout、border-collapse、border-spacing样式</p>
         <table>
             <thead>
                 <tr>
@@ -137,8 +140,9 @@
         </table>
     </section>
     <hr>
-    <section style="height: 80px;">
+    <section style="height: 120px;">
         <h4>其他感想</h4>
+        <p>form表单主要有action（要提交数据去的页面）、method（提交方式，含get和post）、有submit事件（需要一个type为submit的input/button来实现）</p>
         <form action="./fighting.html" method="GET" onsubmit=''>
             <input type="text" required>
             <button type='submit'>假装提交</button>
