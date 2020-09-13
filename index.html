@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML常用标签</title>
+</head>
+<style>
+    ul li {
+        list-style: none;
+    }
+
+    a {
+        color: inherit;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: pink;
+    }
+
+    .picture ul li {
+        margin-right: 10px;
+        width: 200px;
+        float: left;
+    }
+
+    section {
+        width: 100%;
+        height: 170px;
+    }
+
+    img {
+        width: 200px;
+        max-width: 100%;
+    }
+
+    table {
+        table-layout: auto;
+        border-collapse: collapse;
+    }
+
+    th,
+    td {
+        border: 1px dotted pink;
+        font-size: 14px;
+    }
+</style>
+
+<body>
+    <h3>HTML常用标签</h3>
+
+    <hr>
+    <section>
+        <h4>a标签的用法 </h4>
+        <ul>
+            <li>
+                <a href="//www.baidu.com" target='_blank'>外部链接跳转</a>
+            </li>
+            <li>
+                <a href="#footer" target='_self'>内部锚定到文档末尾</a>
+            </li>
+            <li>
+                <a href="mailto:1111@qq.com">发邮件给111</a>
+            </li>
+            <li>
+                <a href="tel:13000000000">打电话给130</a>
+            </li>
+            <li>
+                <a href="javascript:;" onclick=alert(111);>点击alert</a>
+            </li>
+        </ul>
+    </section>
+    <hr>
+    <section class='picture'>
+        <h4>img标签的用法</h4>
+        <ul>
+            <li>
+                <img src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3927956688,3513159679&fm=26&gp=0.jpg"
+                    alt="真的图片">
+            </li>
+            <li>
+                <img src="abc.jpg" title="兜底图片" id='qaz'>
+            </li>
+            <li>
+                <img src="abc.jpg" alt="假的图片">
+            </li>
+
+        </ul>
+    </section>
+    <hr>
+    <section>
+        <h4>table标签的用法</h4>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="3">
+                        表头3列合并
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        单元格1
+                    </td>
+                    <td>
+                        单元格2
+                    </td>
+                    <td>
+                        单元格3
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        单元格1
+                    </td>
+                    <td>
+                        单元格2
+                    </td>
+                    <td>
+                        单元格3
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>
+                        结尾
+                    </td>
+                    <td colspan="2">
+                        ღ( ´･ᴗ･` )
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+    <hr>
+    <section style="height: 80px;">
+        <h4>其他感想</h4>
+        <form action="./fighting.html" method="GET" onsubmit=''>
+            <input type="text" required>
+            <button type='submit'>假装提交</button>
+        </form>
+    </section>
+    <footer id="footer">&copy;张无忌出品</footer>
+    <script>
+        qaz.onerror = function () {
+            qaz.src =
+                'https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1236557510,3858779538&fm=26&gp=0.jpg'
+        }
+    </script>
+</body>
+
+
+</html>
