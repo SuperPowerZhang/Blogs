@@ -11,14 +11,13 @@ a.__prpto__===Array.prototype;//true
 a.__prpto__.__prpto__===Object.prototype;//true 
 ```
 
-因为Array的构造函数是Object。</br>
+####  因为Array的构造函数是Object。</br>
 
-所以调用a.hasOwnProperty时，a没有；</br>
-就去a.__proto__中找（即Array.prototype），发现还是没有；</br>
-就去a.__prpto__.__prpto__（即Array.prototype.__prpto__），也就是Object.prototype中找，于是找到了。</br>
+#### 所以调用a.hasOwnProperty时，a没有；</br>
+####  就去a.__prpto__中找（即Array.prototype），发现还是没有；</br>
+####  就去a.__prpto__.__prpto__（即Array.prototype.__prpto__），也就是Object.prototype中找，于是找到了。</br>
 
-
-**Object.prototype.__proto__的结果是null **
-**Array.prototype还是Array**
+####  Object.prototype.__proto__的结果是null
+####  Array.prototype还是Array**
 
 ```Array.isArray(Array.prototype); // true```
