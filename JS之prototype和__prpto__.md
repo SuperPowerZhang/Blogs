@@ -18,6 +18,6 @@ a.__prpto__.__prpto__===Object.prototype;//true
 ####  就去a.__prpto__.__prpto__（即Array.prototype.__prpto__），也就是Object.prototype中找，于是找到了。</br>
 
 ####  Object.prototype.__proto__的结果是null
-####  Array.prototype还是Array**
+####  Array.prototype还是Array
 
 ```Array.isArray(Array.prototype); // true```
